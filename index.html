@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portafolio personal de José García, desarrollador web y diseñador UX/UI."
+    />
+    <title>José García | Portafolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#home" class="brand">J<span>G</span></a>
+        <nav class="main-nav" aria-label="Navegación principal">
+          <a href="#home">Inicio</a>
+          <a href="#about">Sobre mí</a>
+          <a href="#services">Servicios</a>
+          <a href="#projects">Proyectos</a>
+          <a href="#contact">Contacto</a>
+        </nav>
+        <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero section">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Desarrollador web</p>
+            <h1>Creo experiencias digitales que conectan con las personas.</h1>
+            <p class="lead">
+              Soy José, un desarrollador frontend con enfoque en diseño limpio,
+              rendimiento y soluciones que ayudan a marcas a crecer en línea.
+            </p>
+            <div class="cta-group">
+              <a href="#projects" class="btn btn-primary">Ver proyectos</a>
+              <a href="#contact" class="btn btn-secondary">Hablemos</a>
+            </div>
+            <ul class="hero-stats" aria-label="Estadísticas personales">
+              <li><strong>+5</strong><span>Años de experiencia</span></li>
+              <li><strong>20+</strong><span>Proyectos entregados</span></li>
+              <li><strong>100%</strong><span>Enfoque en calidad</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-visual reveal">
+            <div class="profile-card">
+              <div class="avatar-wrap">
+                <img
+                  src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&q=80"
+                  alt="Retrato de José García"
+                />
+              </div>
+              <div class="card-badge">
+                <span class="dot"></span>
+                Disponible para freelance
+              </div>
+              <div class="mini-card">
+                <p>UI/UX</p>
+                <strong>+8 proyectos</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section about">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Sobre mí</p>
+            <h2>Diseño y desarrollo soluciones con propósito.</h2>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-text reveal">
+              <p>
+                Me apasiona transformar ideas en productos digitales útiles,
+                modernos y accesibles. Desde sitios corporativos hasta tiendas y
+                landing pages, busco crear experiencias que generen confianza y
+                resultados reales.
+              </p>
+              <p>
+                Mi enfoque combina estrategia, diseño visual y desarrollo
+                frontend para entregar proyectos eficientes, escalables y con un
+                alto nivel de usabilidad.
+              </p>
+            </div>
+
+            <div class="about-panel reveal">
+              <h3>Habilidades principales</h3>
+              <div class="tag-list">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+                <span>React</span>
+                <span>WordPress</span>
+                <span>Figma</span>
+                <span>SEO</span>
+                <span>UX/UI</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section services">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Servicios</p>
+            <h2>Lo que puedo ayudarte a construir.</h2>
+          </div>
+
+          <div class="services-grid">
+            <article class="service-card reveal">
+              <div class="icon">💻</div>
+              <h3>Desarrollo web</h3>
+              <p>
+                Sitios web modernos, rápidos y responsivos con una experiencia de
+                usuario excepcional.
+              </p>
+            </article>
+
+            <article class="service-card reveal">
+              <div class="icon">🎨</div>
+              <h3>Diseño UI/UX</h3>
+              <p>
+                Interfaces atractivas y funcionales que reflejan la identidad de
+                tu marca y mejoran la conversión.
+              </p>
+            </article>
+
+            <article class="service-card reveal">
+              <div class="icon">⚙️</div>
+              <h3>Optimización</h3>
+              <p>
+                Mejoras de rendimiento, accesibilidad y experiencia para que tu
+                proyecto esté listo para crecer.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section projects">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Proyectos</p>
+            <h2>Algunas ideas que ya han tomado forma.</h2>
+          </div>
+
+          <div class="projects-grid">
+            <article class="project-card reveal">
+              <div class="project-image image-one"></div>
+              <div class="project-content">
+                <span>Landing Page</span>
+                <h3>Nova Studio</h3>
+                <p>
+                  Sitio para agencia creativa con enfoque en marca, conversión y
+                  navegación clara.
+                </p>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-image image-two"></div>
+              <div class="project-content">
+                <span>E-commerce</span>
+                <h3>North Market</h3>
+                <p>
+                  Tienda online con experiencia intuitiva, catálogo atractivo y
+                  flujo de compra optimizado.
+                </p>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-image image-three"></div>
+              <div class="project-content">
+                <span>Portfolio</span>
+                <h3>Alina Creative</h3>
+                <p>
+                  Portafolio personal para diseñador con narrativa visual, enfoque
+                  editorial y estilo premium.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div class="container contact-wrap reveal">
+          <div>
+            <p class="eyebrow">Contacto</p>
+            <h2>¿Listo para crear algo increíble?</h2>
+          </div>
+          <a href="mailto:josegarcia.dev@gmail.com" class="btn btn-primary">josegarcia.dev@gmail.com</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>© <span id="year"></span> José García. Todos los derechos reservados.</p>
+        <div class="socials" aria-label="Redes sociales">
+          <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://dribbble.com" target="_blank" rel="noreferrer">Dribbble</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
